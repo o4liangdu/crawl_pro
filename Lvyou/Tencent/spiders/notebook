@@ -1,0 +1,9 @@
+scrapy project XXXX
+scrapy genspider xxx "xxxx.com"
+
+编写item.py
+编写spider/xxx.py，编写爬虫文件，处理请求和响应，以及提取数据（yield item)
+编写pipelines.py,编写管道文件，处理spider返回item数据
+编写settings.py，启动管道组件，以及其他相关设置
+
+执行爬虫
